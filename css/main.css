@@ -308,6 +308,10 @@ nav li a:hover {
   .features-section {
     position: relative;
   }
+  .features-section .feature-list {
+    position: absolute;
+    left: 2em;
+  }
   .features-section img {
     display: block;
     position: absolute;
@@ -341,7 +345,7 @@ nav li a:hover {
     height: 100%;
   }
 }
-@media only screen and (min-width: 1450px) {
+@media only screen and (min-width: 1280px) {
   .features-section:before {
     content: "";
     position: absolute;

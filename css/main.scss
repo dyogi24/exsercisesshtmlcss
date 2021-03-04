@@ -340,6 +340,10 @@ nav {
   .features-section {
     position: relative;
 
+    .feature-list {
+      position: absolute;
+      left: 2em;
+    }
     img {
       display: block;
       position: absolute;
@@ -378,7 +382,7 @@ nav {
   }
 }
 
-@media only screen and (min-width: 1450px) {
+@media only screen and (min-width: 1280px) {
   .features-section {
     &:before {
       content: "";
